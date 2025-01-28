@@ -1,0 +1,78 @@
+body {
+  background-color: wheat;
+  align-content: center;
+}
+
+.calculator {
+  height: 50vh;
+  width: 50vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.calcbody {
+  height: 40vh;
+  width: 30vw;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
+.display {
+  height: 9vh;
+  width: 28vw;
+  background-color: aliceblue;
+  margin-bottom: 1vh;
+  border-radius: 3%;
+  margin:5%;
+}
+
+.buttons {
+  height: 28vh;
+  width: 28vw;
+  background-color: palegreen;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-top: 1vh;
+  padding-left: 2vw;
+  margin: 0;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  min-width: 25vw;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 4vh;
+  width: 4vh;
+  background-color: sandybrown;
+  display: flex; 
+  justify-content: center; 
+  align-items:center;
+  border-radius: 10%;
+  
+}
+
+.valueone{
+  display:inline-block;
+  width:40%;
+}
+
+.valuetwo{
+  display:inline-block;
+  width:40%;
+}
+
+.valueoperator{
+  display:inline-block;
+  width:10%;
+}
