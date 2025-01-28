@@ -76,3 +76,25 @@ body {
   display:inline-block;
   width:10%;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .calculator {
+    height: 90vh;
+    width: 90vw;
+  }
+  
+  .calcbody {
+    height: 80vh;
+    width: 85vw;
+  }
+  
+  .display, .buttons {
+    width: 90vw;
+  }
+  
+  .button {
+    height: 8vh;
+    width: 8vh;
+  }
+}
