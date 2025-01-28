@@ -1,7 +1,9 @@
 body {
   background-color: wheat;
+  display: flex;
+  justify-content: center;
   align-content: center;
-}
+  }
 
 .calculator {
   height: 50vh;
@@ -10,9 +12,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
-}
+  max-width: 35vw;
+  max-height: 50vh;
+ }
 
 .calcbody {
   height: 40vh;
@@ -80,21 +82,21 @@ body {
 /* Mobile styles */
 @media (max-width: 600px) {
   .calculator {
+    height: 95vh;
+    width: 95vw;
+  }
+  
+  .calcbody {
     height: 90vh;
     width: 90vw;
   }
   
-  .calcbody {
-    height: 80vh;
-    width: 85vw;
-  }
-  
   .display, .buttons {
-    width: 90vw;
+    width: 80vw;
   }
   
   .button {
-    height: 8vh;
-    width: 8vh;
+    height: 5vh;
+    width: 5vh;
   }
 }
