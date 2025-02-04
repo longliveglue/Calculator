@@ -100,7 +100,7 @@ theOpBranch = (theId, theText) => {
       console.log("opPress = " + opPress + " opPlus = " + opPlus + " opMinus = " + opMinus + " opMulti = " + opMulti + " opDivide = " + opDivide)
     }
 
-    else if (theText === "*") {
+    else if (theText === "x") {
       opPress = true;
       opPlus = false;
       opMinus = false;
