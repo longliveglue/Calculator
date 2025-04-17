@@ -66,6 +66,7 @@ theOpBranch = (theId, theText) => {
     $("#valueone").text(value1);
     $("#valuetwo").text(value2);
     $("#valueoperator").text("");
+    $("#valueequals").text("");
     console.log("opPress = " + opPress + " opPlus = " + opPlus + " opMinus = " + opMinus + " opMulti = " + opMulti + " opDivide = " + opDivide)
   }
 
@@ -134,8 +135,9 @@ theOpBranch = (theId, theText) => {
       sum = num1 + num2;
       
       $("#valueone").text(sum);
-      $("#valueoperator").text("=");
+      $("#valueequals").text("=");
       $("#valuetwo").text("");
+      $("#valueoperator").text("");
       value1 = sum;
       value2 = "";
       opPress = false;

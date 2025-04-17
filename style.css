@@ -67,7 +67,7 @@ body {
 
 .valueone{
   display:inline-block;
-  width:40%;
+  width:20%;
 }
 
 .valuetwo{
@@ -79,9 +79,14 @@ body {
   display:inline-block;
   width:10%;
 }
+.valueequals{
+  display:inline-block;
+  width:10%;
+  padding-left:1vw;
+}
 
 /* Mobile styles */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .calculator {
     height: 95vh;
     width: 100vw;
